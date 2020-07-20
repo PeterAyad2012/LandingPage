@@ -1,0 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0px;
+    margin:0px;
+    color: white;
+    background-image: linear-gradient(180deg, rgb(0,13,60), rgb(136,203,171));
+}
+
+    header{
+        
+    }
+
+        nav{
+            background-color: rgba(136,203,171,.5);
+            position: fixed;
+            width:100%;
+        }
+
+            #navList{
+                margin: 0% 5%;
+                text-align: right;
+            }
+                /* unordered navigation bar item style */
+                .navElement{
+                    display: inline-block;
+                    color: black;
+                }
+                
+                /* unordered navigation bar item style when active */
+                body.hasHov .navElement:hover, .pressed {
+                    color: white;
+                    background-color: rgba(0,13,60,.5);
+                }
+
+                    /* anchor inside each navigation bar item style */
+                    .item{
+                        text-decoration: none;
+                        color: inherit;
+                        font-size: 20px;
+                        padding: 10px;
+                        display: inline-block;
+                    }
+
+
+    main{
+        padding: 0% 5%;
+        margin:0px;
+    }
+
+    .padd{
+        padding: 10% 5%;
+    }
+
+        h1{
+            font-size: 100px;
+            font-weight: bold;
+            margin:0%;
+        }
+
+        .sec{
+            font-size: 40px;
+        }
+
+        /* section style when active */
+        .current{
+            background-color: rgba(0,0,0,.2);
+        }
+
+        #sec2, #sec4{
+            text-align: right;
+        }
+
+.underline{
+    border-bottom: solid 1px #cc1;
+}
+
+            p{
+                font-size: 24px;
+            }
+
+    footer{
+        background-color: black;
+        padding: 3% 5%;
+    }
